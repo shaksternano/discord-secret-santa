@@ -30,7 +30,7 @@ async def on_ready():
             sender_id = participant["discord_id"]
             sender = await client.fetch_user(sender_id)
 
-            recipient_name = participant["name"]
+            recipient_name = recipient["name"]
             recipient_id = recipient["discord_id"]
 
             message = f"Hello {sender_name}, you are <@{recipient_id}> ({recipient_name})'s secret santa!"
