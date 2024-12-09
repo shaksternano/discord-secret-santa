@@ -1,0 +1,17 @@
+{
+    "discord_token": "ABC12345",
+    "participants": [
+        {
+            "name": "Alice",
+            "discord_id": 11111
+        },
+        {
+            "name": "Bob",
+            "discord_id": 22222
+        },
+        {
+            "name": "Charlie",
+            "discord_id": 33333
+        }
+    ]
+}
