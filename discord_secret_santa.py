@@ -33,7 +33,7 @@ async def on_ready():
             recipient_name = recipient["name"]
             recipient_id = recipient["discord_id"]
 
-            message = f"Hello {sender_name}, you are <@{recipient_id}> ({recipient_name})'s secret santa!"
+            message = f"Hello {sender_name}, you are {recipient_name} (<@{recipient_id}>)'s secret santa!"
             await sender.send(message)
     finally:
         await client.close()
